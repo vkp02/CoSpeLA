@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+# large artifacts: release these via a GitHub Release or Zenodo, not in the repo
+*.pt
+*.ckpt
+checkpoints/
+runs/
+data/
+downstream/
+*.npz
+*.mat
+.DS_Store
