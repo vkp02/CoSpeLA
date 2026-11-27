@@ -8,7 +8,7 @@ spectral bands, and it is trained on 670 public cubes on a single GPU.
 Upon release, the repository will be organized as follows.
 ```
 .
-├── materialclip/        # core package: model, data, training
+├── cospela/        # core package: model, data, training
 ├── scripts/             # evaluation and figure generation
 ├── captions/            # generated captions (Qwen2.5-VL)
 ├── configs/             # training / evaluation configs
