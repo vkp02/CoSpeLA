@@ -1,4 +1,14 @@
-spectral bands, and it is trained on 670 public cubes on a single GPU.
+# **CoSpeLA**
+
+Band-Agnostic Contrastive Spectral-Language Alignment for Low-Data Hyperspectral Retrieval
+Official repository for the paper "CoSpeLA: Band-Agnostic Contrastive Spectral-Language 
+Alignment for Low-Data Hyperspectral Retrieval" by Vijay Kumar Pandey and Tushar Sandhan 
+(Department of Electrical Engineering, Indian Institute of Technology Kanpur).
+
+CoSpeLA is a band-agnostic contrastive encoder that aligns hyperspectral cubes with 
+free-form language in the low-data regime. It pools over a wavelength-conditioned band 
+axis, so a single model consumes a variable number of spectral bands, and it is trained
+on 670 public cubes on a single GPU.
 
 > **Code availability.** The full code, captioned data, and configuration files
 > will be released in this repository upon publication of the paper. This page
